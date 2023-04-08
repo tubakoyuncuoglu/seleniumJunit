@@ -97,4 +97,5 @@ public abstract class TestBase {
     public static void window(int sayi){
         driver.switchTo().window(driver.getWindowHandles().toArray()[sayi].toString());
     }
+
 }
