@@ -24,7 +24,7 @@ public class C01_FileUpload extends TestBase {
         //b129.txt dosyasını yükleyin(upload)
         WebElement dosyaSecWebElement = driver.findElement(By.id("file-upload"));
         bekle(3);
-        String dosyaYolu = "C:\\Users\\Lenovo\\OneDrive\\Masaüstü\\b129.txt";
+        String dosyaYolu = "C:\\Users\\CASPER\\OneDrive\\Masaüstü\\b129.txt.txt";
         //String dosyaYolu = System.getProperty("user.home")+"\\OneDrive\\Masaüstü\\b129.txt";
         dosyaSecWebElement.sendKeys(dosyaYolu);
         bekle(3);
